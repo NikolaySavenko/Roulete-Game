@@ -17,4 +17,4 @@ class HeaderText extends React.Component{
     }
 }
 
-module.exports = HeaderText;
+export default HeaderText;

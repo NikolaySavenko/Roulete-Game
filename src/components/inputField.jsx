@@ -43,4 +43,4 @@ class GameInputField extends React.Component{
     }
 }
 
-module.exports = GameInputField;
+export default GameInputField;

@@ -55,4 +55,4 @@ class Buttons extends React.Component{
         </h1>
     }
 }
-module.exports = Buttons;
+export default Buttons;

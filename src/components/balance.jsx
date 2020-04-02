@@ -13,4 +13,4 @@ class Balance extends React.Component {
         return <h1 style = {style}>Your Balance is: {this.state.balance}</h1>
     }
 }
-module.exports = Balance;
+export default Balance;

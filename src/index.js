@@ -1,13 +1,18 @@
 import GameManager from './managers/GameManager.jsx';
 
+//var Balance = require('./components/balance.jsx');
+import Balance from './components/balance';
+import HeaderText from './components/header';
+import GameInputField from './components/inputField';
+import Buttons from './components/playButton';
+import Result from './components/result';
+
 var ReactDOM = require('react-dom');
 var React = require('react');
-
-var Balance = require('./components/balance.jsx');
-var HeaderText = require('./components/header.jsx');
+/*var HeaderText = require('./components/header.jsx');
 var GameInputField = require('./components/inputField.jsx');
 var Buttons = require('./components/playButton.jsx');
-var Result = require('./components/result.jsx');
+var Result = require('./components/result.jsx');*/
 
 ReactDOM.render(
     <HeaderText />,
@@ -31,7 +36,7 @@ var result = ReactDOM.render(
 
 var gameManager = new GameManager(balanceElement, result, inputField);
 
-var buttons = ReactDOM.render(
+ReactDOM.render(
     <Buttons manager = {gameManager}/>,
     document.getElementById("buttons")
 )
