@@ -4,7 +4,7 @@ var express = require('express');
 
 // Описание настроек:
 var staticSiteOptions = {
-   portnum: 80, // слушать порт 80
+   portnum: 3000, // слушать порт 80
    maxAge: 1000 * 60 * 30 // хранить страницы в кэше пятнадцать минут
 };
 
