@@ -1,11 +1,11 @@
 {
-  "name": "webpackapp",
+  "name": "roulete-test",
   "description": "A React.js project using Webpack",
   "version": "1.0.0",
-  "author": "metanit.com",
+  "author": "Nick",
   "scripts": {
     "dev": "webpack-dev-server --hot --open",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "react": "^16.5.0",
