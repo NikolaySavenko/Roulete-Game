@@ -9,5 +9,8 @@
   "devDependencies": {
     "lite-server": "^2.2.1",
     "minimist": ">=1.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
