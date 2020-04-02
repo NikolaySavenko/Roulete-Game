@@ -1,7 +1,7 @@
+import GameManager from './managers/GameManager.jsx';
+
 var ReactDOM = require('react-dom');
 var React = require('react');
-
-import GameManager from './managers/GameManager.jsx';
 
 var Balance = require('./components/balance.jsx');
 var HeaderText = require('./components/header.jsx');

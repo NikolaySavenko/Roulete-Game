@@ -28,14 +28,14 @@ function getButtonStyle(color){
 class PlayButton extends React.Component{
     constructor(props){
         super(props);
-        this.props.color = props.color;
+        this.color = props.color;
         this.press = this.press.bind(this);
     }
     render(){
-        return <button style={getButtonStyle(this.props.color)} onClick = {this.press}></button>
+        return <button style={getButtonStyle(this.color)} onClick = {this.press}></button>
     }
     press(){
-        this.props.manager.onButtonClick(this.props.color);
+        this.props.manager.onButtonClick(this.color);
         //alert(this.props.manager.inputManager.value);
     }
 }
