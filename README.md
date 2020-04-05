@@ -1,3 +1,5 @@
+I apologize for writing such crap, it was written in a couple of hours just for my own use. Sorry again
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
